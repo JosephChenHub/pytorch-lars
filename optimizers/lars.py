@@ -100,7 +100,7 @@ class LARS(Optimizer):
                 actual_lr = local_lr * global_lr
 
                 if weight_decay != 0:
-                    d_p.add(p, alpha=weight_decay)
+                    d_p.add_(p, alpha=weight_decay)
 
                 # Update the momentum
                 if 'momentum_buffer' not in param_state:
