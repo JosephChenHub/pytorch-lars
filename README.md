@@ -22,7 +22,7 @@ This is a non-official implementation of the optimizer Layer-wise Adaptive Rate 
 | Backbone | Initialization | Augmentation | Optimizer | Hyper-parameters | Training time | Top1 Acc. |
 | -------- | -------- | -------- | -------- |  -------- |-------- | -------- |
 | [ResNet18](https://github.com/weiaicunzai/pytorch-cifar100) | PyTorch default| RandomCrop+HorizontalFlip| SGD | bz:128, lr:0.1, warmup:1,  multistep| - | 76.39| 
-| ResNet18 | PyTorch default | RandomCrop+HorizontalFlip| LARS | bz:4096, max lr:0.04, warmup:20,one cycle policy| < 25 min. (4x 2080Ti) | 78.05 | 
+| ResNet18 | PyTorch default | RandomCrop+HorizontalFlip| LARS | bz:4096, max lr:0.04, warmup:20,one cycle policy| ~ 25 min. (4x 2080Ti) | 78.05 | 
 
 
 - on ImageNet (tiny):
