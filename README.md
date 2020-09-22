@@ -19,6 +19,7 @@ This is a non-official implementation of the optimizer Layer-wise Adaptive Rate 
 | 4096 | 10 | 5 |0.040 | **99.32** | 0.261 | 98.48| 0.0155 | 99.15 |
 
 - on cifar-100:
+
 | Backbone | Initialization | Augmentation | Optimizer | Hyper-parameters | Training time | Top1 Acc. |
 | -------- | -------- | -------- | -------- |  -------- |-------- | -------- |
 | [ResNet18](https://github.com/weiaicunzai/pytorch-cifar100) | PyTorch default| RandomCrop+HorizontalFlip| SGD | bz:128, lr:0.1, warmup:1,  multistep| - | 76.39| 
